@@ -1,0 +1,29 @@
+{
+  "name": "kata-hanoi-tower",
+  "version": "1.0.0",
+  "description": "Tower of Hanoi",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "node_modules/.bin/eslint .",
+    "start": "node index.js",
+    "test": "node_modules/.bin/mocha test"
+  },
+  "author": "Alessandro D'Amico",
+  "license": "ISC",
+  "engines": {
+    "node": ">= 8"
+  },
+  "devDependencies": {
+    "mocha": "~5.2.0",
+    "should": "^13.2.3"
+  },
+  "dependencies": {
+    "eslint": "~4.19.1",
+    "eslint-config-airbnb-base": "~12.1.0",
+    "eslint-plugin-import": "~2.12.0",
+    "eslint-config-airbnb": "~16.1.0",
+    "eslint-friendly-formatter": "~4.0.1",
+    "eslint-plugin-jsx-a11y": "~6.0.3",
+    "eslint-plugin-react": "~7.9.1"
+  }
+}
